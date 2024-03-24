@@ -65,6 +65,12 @@ nav i{
     text-transform: uppercase;
 }
 
+#npart3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #btn2{
     padding: 7px 13px;
     background-color: orangered;
@@ -115,4 +121,34 @@ img{
 }
 #img3{
     transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-lft{
+    position: absolute;
+    bottom: 5%;
+    left : 2%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#smedia{
+    position: absolute;
+    bottom: 8%;
+    right : 2%;
+    height: 2.5%;
+    width: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 100;
+    /* background-color: aquamarine; */
+}
+
+#btm-rgt h6{
+    position: absolute;
+    bottom: 5%;
+    right : 2%;
+    font-weight: 500;
+    font-size: 15px;
 }
